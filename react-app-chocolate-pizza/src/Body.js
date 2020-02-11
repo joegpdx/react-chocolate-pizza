@@ -4,7 +4,7 @@ import Date from "./Date.js"
 export default class Body extends Component {
   render() {
     return <div>
-        <h1>Chocolate Pizza</h1>
+        <h1>{this.props.title}</h1>
           <Date datetext="Posted on 15 Dec 2013" />
           <img src="print-icon.png" alt="print page icon" />
           <img src="choco-pizza.png" alt="Cholocate pizza with m and m toppings" />
